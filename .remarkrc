@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "remark-preset-lint-recommended",
+    "remark-preset-lint-consistent"
+  ],
+  "plugins": [
+    ["lint-list-item-indent", "space"],
+    ["lint-list-item-spacing", false],
+    ["lint-maximum-line-length", 120],
+    ["lint-no-consecutive-blank-lines", false],
+    ["lint-no-duplicate-headings", false],
+    ["lint-no-heading-punctuation", false],
+    ["lint-ordered-list-marker-value", "ordered"],
+    ["lint-rule-style", false],
+    ["lint-strong-marker", "*"],
+    ["lint-table-pipe-alignment", false],
+    ["lint-table-pipe-alignment", false]
+  ]
+}

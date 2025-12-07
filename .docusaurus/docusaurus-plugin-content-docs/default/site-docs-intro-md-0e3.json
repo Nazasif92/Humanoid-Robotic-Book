@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Introduction",
+  "description": "Welcome to the Humanoid Robotics Book! This comprehensive guide will take you through the essential concepts and technologies needed to understand and develop humanoid robots.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/humanoid-robotic-book/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Module 1: ROS 2 — Robotic Nervous System",
+    "permalink": "/humanoid-robotic-book/docs/chapters/ros2-nervous-system"
+  }
+}

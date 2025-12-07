@@ -1,0 +1,26 @@
+{
+  "id": "chapters/vla-humanoid",
+  "title": "Chapter 4: VLA Humanoid Robotics",
+  "description": "This chapter will cover Vision-Language-Action paradigms for humanoid robotics.",
+  "source": "@site/docs/chapters/vla-humanoid.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/vla-humanoid",
+  "permalink": "/humanoid-robotic-book/docs/chapters/vla-humanoid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/chapters/vla-humanoid.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Chapter 4: VLA Humanoid Robotics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: NVIDIA Isaac Perception",
+    "permalink": "/humanoid-robotic-book/docs/chapters/isaac-perception"
+  },
+  "next": {
+    "title": "Appendix A: Environment Setup",
+    "permalink": "/humanoid-robotic-book/docs/appendices/environment-setup"
+  }
+}

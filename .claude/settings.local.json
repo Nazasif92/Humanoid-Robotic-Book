@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(powershell -Command \".\\.specify\\scripts\\powershell\\create-new-feature.ps1 -ShortName ''digital-twin'' -Number 2 -Json ''Module 2: Gazebo Unity Digital Twin''\")",
+      "Bash(wc:*)",
+      "SlashCommand(/sp.analyze)",
+      "Bash(powershell -Command \"& ''.\\.specify\\scripts\\powershell\\check-prerequisites.ps1'' -Json -RequireTasks -IncludeTasks\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

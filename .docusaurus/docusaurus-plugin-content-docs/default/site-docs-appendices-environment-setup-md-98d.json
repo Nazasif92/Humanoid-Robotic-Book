@@ -1,0 +1,26 @@
+{
+  "id": "appendices/environment-setup",
+  "title": "Appendix A: Environment Setup",
+  "description": "This appendix provides detailed instructions for setting up your development environment to work with the examples in this book.",
+  "source": "@site/docs/appendices/environment-setup.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/environment-setup",
+  "permalink": "/humanoid-robotic-book/docs/appendices/environment-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/appendices/environment-setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Appendix A: Environment Setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: VLA Humanoid Robotics",
+    "permalink": "/humanoid-robotic-book/docs/chapters/vla-humanoid"
+  },
+  "next": {
+    "title": "Appendix B: Code Examples",
+    "permalink": "/humanoid-robotic-book/docs/appendices/code-examples"
+  }
+}

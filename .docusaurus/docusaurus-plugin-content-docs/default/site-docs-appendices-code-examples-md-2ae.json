@@ -1,0 +1,26 @@
+{
+  "id": "appendices/code-examples",
+  "title": "Appendix B: Code Examples",
+  "description": "This appendix contains additional code examples that supplement the material in the main chapters.",
+  "source": "@site/docs/appendices/code-examples.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/code-examples",
+  "permalink": "/humanoid-robotic-book/docs/appendices/code-examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/appendices/code-examples.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Appendix B: Code Examples"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix A: Environment Setup",
+    "permalink": "/humanoid-robotic-book/docs/appendices/environment-setup"
+  },
+  "next": {
+    "title": "Appendix C: Glossary",
+    "permalink": "/humanoid-robotic-book/docs/appendices/glossary"
+  }
+}

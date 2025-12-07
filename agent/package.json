@@ -1,0 +1,25 @@
+{
+  "name": "book-qa-agent",
+  "version": "1.0.0",
+  "description": "Book QA Agent with web chatbot UI",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "dev": "nodemon agent.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "book",
+    "qa",
+    "chatbot",
+    "documentation"
+  ],
+  "author": "Book QA Agent",
+  "license": "MIT"
+}

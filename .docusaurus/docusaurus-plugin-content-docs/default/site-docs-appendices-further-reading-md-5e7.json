@@ -1,0 +1,22 @@
+{
+  "id": "appendices/further-reading",
+  "title": "Appendix D: Further Reading",
+  "description": "This appendix provides additional resources for continuing your learning journey in humanoid robotics.",
+  "source": "@site/docs/appendices/further-reading.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/further-reading",
+  "permalink": "/humanoid-robotic-book/docs/appendices/further-reading",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/appendices/further-reading.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Appendix D: Further Reading"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix C: Glossary",
+    "permalink": "/humanoid-robotic-book/docs/appendices/glossary"
+  }
+}

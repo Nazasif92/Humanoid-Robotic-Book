@@ -1,0 +1,26 @@
+{
+  "id": "appendices/glossary",
+  "title": "Appendix C: Glossary",
+  "description": "This appendix contains definitions for key terms used throughout the book.",
+  "source": "@site/docs/appendices/glossary.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/glossary",
+  "permalink": "/humanoid-robotic-book/docs/appendices/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/appendices/glossary.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Appendix C: Glossary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix B: Code Examples",
+    "permalink": "/humanoid-robotic-book/docs/appendices/code-examples"
+  },
+  "next": {
+    "title": "Appendix D: Further Reading",
+    "permalink": "/humanoid-robotic-book/docs/appendices/further-reading"
+  }
+}

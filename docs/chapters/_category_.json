@@ -1,0 +1,8 @@
+{
+  "label": "Chapters",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about humanoid robotics from ROS 2 fundamentals to advanced VLA integration."
+  }
+}

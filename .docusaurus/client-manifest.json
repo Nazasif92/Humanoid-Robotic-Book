@@ -1,0 +1,273 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "0e384e19": [
+      976
+    ],
+    "18bd4bae": [
+      886
+    ],
+    "200e3039": [
+      537
+    ],
+    "2aed22ad": [
+      328
+    ],
+    "35c02442": [
+      638
+    ],
+    "3a29f27b": [
+      519
+    ],
+    "3bcc7dc1": [
+      603
+    ],
+    "5e718ae6": [
+      449
+    ],
+    "5e95c892": [
+      647
+    ],
+    "98d368c0": [
+      748
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "c4f5d8e4": [
+      869,
+      634
+    ],
+    "d1e3d440": [
+      102
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      634,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.a020d1d5.js",
+          "hash": "6f8c1e1b4e679ecc",
+          "publicPath": "/humanoid-robotic-book/assets/js/a94703ab.a020d1d5.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.acc9755e.js",
+          "hash": "c5a2250c21be12dc",
+          "publicPath": "/humanoid-robotic-book/assets/js/a7bd4aaa.acc9755e.js"
+        }
+      ]
+    },
+    "102": {
+      "js": [
+        {
+          "file": "assets/js/d1e3d440.740eab1a.js",
+          "hash": "8125d4e5b967f149",
+          "publicPath": "/humanoid-robotic-book/assets/js/d1e3d440.740eab1a.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.bb684f03.js",
+          "hash": "86cf68293debbd9d",
+          "publicPath": "/humanoid-robotic-book/assets/js/a7456010.bb684f03.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.7be47e03.js",
+          "hash": "a63f309e6ead81dc",
+          "publicPath": "/humanoid-robotic-book/assets/js/237.7be47e03.js"
+        }
+      ]
+    },
+    "328": {
+      "js": [
+        {
+          "file": "assets/js/2aed22ad.2b898220.js",
+          "hash": "fbad2d3d074b118b",
+          "publicPath": "/humanoid-robotic-book/assets/js/2aed22ad.2b898220.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.f7862ef9.js",
+          "hash": "f78823a80e061e26",
+          "publicPath": "/humanoid-robotic-book/assets/js/runtime~main.f7862ef9.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.5dbf573b.js",
+          "hash": "7564ef1ff366ca1b",
+          "publicPath": "/humanoid-robotic-book/assets/js/17896441.5dbf573b.js"
+        }
+      ]
+    },
+    "449": {
+      "js": [
+        {
+          "file": "assets/js/5e718ae6.9cac577e.js",
+          "hash": "d730f8f1b5887bf8",
+          "publicPath": "/humanoid-robotic-book/assets/js/5e718ae6.9cac577e.js"
+        }
+      ]
+    },
+    "519": {
+      "js": [
+        {
+          "file": "assets/js/3a29f27b.8e9f1698.js",
+          "hash": "e9bc6267c6d318cf",
+          "publicPath": "/humanoid-robotic-book/assets/js/3a29f27b.8e9f1698.js"
+        }
+      ]
+    },
+    "537": {
+      "js": [
+        {
+          "file": "assets/js/200e3039.a49143c6.js",
+          "hash": "3e1150b83d304a4c",
+          "publicPath": "/humanoid-robotic-book/assets/js/200e3039.a49143c6.js"
+        }
+      ]
+    },
+    "603": {
+      "js": [
+        {
+          "file": "assets/js/3bcc7dc1.ecf0f37b.js",
+          "hash": "d687d7e79a8d2af2",
+          "publicPath": "/humanoid-robotic-book/assets/js/3bcc7dc1.ecf0f37b.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.fa3483e4.js",
+          "hash": "9f55779188446aa8",
+          "publicPath": "/humanoid-robotic-book/assets/js/c4f5d8e4.fa3483e4.js"
+        }
+      ]
+    },
+    "638": {
+      "js": [
+        {
+          "file": "assets/js/35c02442.71a09953.js",
+          "hash": "4f75037984ca72ef",
+          "publicPath": "/humanoid-robotic-book/assets/js/35c02442.71a09953.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.dc5b8326.js",
+          "hash": "0217ba12d8b11cde",
+          "publicPath": "/humanoid-robotic-book/assets/js/5e95c892.dc5b8326.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.d007dd9f.js",
+          "hash": "459ae7949e67e854",
+          "publicPath": "/humanoid-robotic-book/assets/js/aba21aa0.d007dd9f.js"
+        }
+      ]
+    },
+    "748": {
+      "js": [
+        {
+          "file": "assets/js/98d368c0.b5fe825c.js",
+          "hash": "7c07f29dce2a63e6",
+          "publicPath": "/humanoid-robotic-book/assets/js/98d368c0.b5fe825c.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.435ba9f1.js",
+          "hash": "6b1e3afd9ee2ea38",
+          "publicPath": "/humanoid-robotic-book/assets/js/main.435ba9f1.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.913ddead.css",
+          "hash": "41cdd3302ac94747",
+          "publicPath": "/humanoid-robotic-book/assets/css/styles.913ddead.css"
+        }
+      ]
+    },
+    "886": {
+      "js": [
+        {
+          "file": "assets/js/18bd4bae.23c8a32a.js",
+          "hash": "443ebf36b9d5c309",
+          "publicPath": "/humanoid-robotic-book/assets/js/18bd4bae.23c8a32a.js"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.f8a34459.js",
+          "hash": "23e9cccda3946d95",
+          "publicPath": "/humanoid-robotic-book/assets/js/0e384e19.f8a34459.js"
+        }
+      ]
+    }
+  }
+}

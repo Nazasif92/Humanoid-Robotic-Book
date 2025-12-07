@@ -1,0 +1,73 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/humanoid-robotic-book/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/humanoid-robotic-book/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "appendices/code-examples",
+              "path": "/humanoid-robotic-book/docs/appendices/code-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "appendices/environment-setup",
+              "path": "/humanoid-robotic-book/docs/appendices/environment-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "appendices/further-reading",
+              "path": "/humanoid-robotic-book/docs/appendices/further-reading",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "appendices/glossary",
+              "path": "/humanoid-robotic-book/docs/appendices/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/digital-twin-simulation",
+              "path": "/humanoid-robotic-book/docs/chapters/digital-twin-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/isaac-perception",
+              "path": "/humanoid-robotic-book/docs/chapters/isaac-perception",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/ros2-nervous-system",
+              "path": "/humanoid-robotic-book/docs/chapters/ros2-nervous-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/vla-humanoid",
+              "path": "/humanoid-robotic-book/docs/chapters/vla-humanoid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/humanoid-robotic-book/docs/intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/humanoid-robotic-book/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "chapters/ros2-nervous-system",
+  "title": "Module 1: ROS 2 — Robotic Nervous System",
+  "description": "Introduction",
+  "source": "@site/docs/chapters/ros2-nervous-system.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/ros2-nervous-system",
+  "permalink": "/humanoid-robotic-book/docs/chapters/ros2-nervous-system",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/chapters/ros2-nervous-system.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Module 1: ROS 2 — Robotic Nervous System"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/humanoid-robotic-book/docs/intro"
+  },
+  "next": {
+    "title": "Chapter 2: Digital Twin Simulation",
+    "permalink": "/humanoid-robotic-book/docs/chapters/digital-twin-simulation"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chapters/digital-twin-simulation",
+  "title": "Chapter 2: Digital Twin Simulation",
+  "description": "This chapter will cover Gazebo and Unity integration for humanoid robotics digital twins.",
+  "source": "@site/docs/chapters/digital-twin-simulation.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/digital-twin-simulation",
+  "permalink": "/humanoid-robotic-book/docs/chapters/digital-twin-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/chapters/digital-twin-simulation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Chapter 2: Digital Twin Simulation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 1: ROS 2 — Robotic Nervous System",
+    "permalink": "/humanoid-robotic-book/docs/chapters/ros2-nervous-system"
+  },
+  "next": {
+    "title": "Chapter 3: NVIDIA Isaac Perception",
+    "permalink": "/humanoid-robotic-book/docs/chapters/isaac-perception"
+  }
+}

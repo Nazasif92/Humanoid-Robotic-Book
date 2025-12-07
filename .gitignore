@@ -1,0 +1,71 @@
+# Docusaurus build artifacts
+.build/
+.dist/
+.out/
+public/
+docs/api/ # if using docusaurus-plugin-openapi
+api/
+.markdownlint-cli2-cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.next/
+.nuxt/
+dist/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Production
+build/
+gen/
+
+# Python (if using Python tooling)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+
+# Local environment settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

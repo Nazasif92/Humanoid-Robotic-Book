@@ -1,0 +1,11 @@
+Title,URL,Type,Date Accessed,Status,Notes
+"ROS 2 Documentation","https://docs.ros.org/en/humble/","Official Documentation","2025-12-06","Active","Primary reference for ROS 2 Humble"
+"ROS 2 Concepts","https://docs.ros.org/en/humble/Concepts.html","Official Documentation","2025-12-06","Active","Core concepts documentation"
+"ROS 2 Tutorials","https://docs.ros.org/en/humble/Tutorials.html","Official Documentation","2025-12-06","Active","Step-by-step guides"
+"ROS 2 API Documentation","https://docs.ros.org/en/humble/p/rclpy/api/","API Reference","2025-12-06","Active","rclpy API documentation"
+"URDF Specification","http://wiki.ros.org/urdf/XML","Specification","2025-12-06","Active","URDF XML format documentation"
+"ROS 2 Quality of Service","https://docs.ros.org/en/humble/Concepts/About-Quality-of-Service-Settings.html","Official Documentation","2025-12-06","Active","QoS policies documentation"
+"RViz2 User Guide","https://docs.ros.org/en/humble/Tutorials/Intermediate/Rviz-Primer.html","Tutorial","2025-12-06","Active","RViz2 visualization guide"
+"ROS 2 Launch Files","https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Creating-Launch-Files.html","Tutorial","2025-12-06","Active","Launch file documentation"
+"ROS 2 Package XML","https://docs.ros.org/en/humble/How-To-Guides/Ament-Cmake-Documentation.html","Specification","2025-12-06","Active","package.xml format"
+"Programming Robots with ROS","https://www.amazon.com/Programming-Robots-ROS-Morgan-Quigley/dp/1449323852","Book","2025-12-06","Active","Reference book for ROS concepts"
