@@ -1,101 +1,58 @@
 {
-  "/humanoid-robotic-book/__docusaurus/debug-862": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
-    }
-  },
-  "/humanoid-robotic-book/__docusaurus/debug/config-5db": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
-    }
-  },
-  "/humanoid-robotic-book/__docusaurus/debug/content-7fd": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
-    },
-    "__props": "__props---humanoid-robotic-book-docusaurus-debug-contentc-89-49e"
-  },
-  "/humanoid-robotic-book/__docusaurus/debug/globalData-13f": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
-    }
-  },
-  "/humanoid-robotic-book/__docusaurus/debug/metadata-571": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
-    }
-  },
-  "/humanoid-robotic-book/__docusaurus/debug/registry-78f": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
-    }
-  },
-  "/humanoid-robotic-book/__docusaurus/debug/routes-bd8": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
-    }
-  },
   "/humanoid-robotic-book/docs-151": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docsaba-5ea"
+      "plugin": "aba21aa0"
     }
   },
   "/humanoid-robotic-book/docs-c3f": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---humanoid-robotic-book-docsd-1-e-d0a"
+    "__comp": "a7bd4aaa",
+    "__props": "d1e3d440"
   },
   "/humanoid-robotic-book/docs-d71": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/humanoid-robotic-book/docs/appendices/code-examples-2f0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-appendices-code-examples-2-ae-16c"
+    "__comp": "17896441",
+    "content": "2aed22ad"
   },
   "/humanoid-robotic-book/docs/appendices/environment-setup-ea9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-appendices-environment-setup-98-d-c25"
+    "__comp": "17896441",
+    "content": "98d368c0"
   },
   "/humanoid-robotic-book/docs/appendices/further-reading-2ff": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-appendices-further-reading-5-e-7-bff"
+    "__comp": "17896441",
+    "content": "5e718ae6"
   },
   "/humanoid-robotic-book/docs/appendices/glossary-71d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-appendices-glossary-3-bc-48a"
+    "__comp": "17896441",
+    "content": "3bcc7dc1"
   },
   "/humanoid-robotic-book/docs/chapters/digital-twin-simulation-ff8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-chapters-digital-twin-simulation-35-c-728"
+    "__comp": "17896441",
+    "content": "35c02442"
   },
   "/humanoid-robotic-book/docs/chapters/isaac-perception-1d2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-chapters-isaac-perception-18-b-8ab"
+    "__comp": "17896441",
+    "content": "18bd4bae"
   },
   "/humanoid-robotic-book/docs/chapters/ros2-nervous-system-732": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-chapters-ros-2-nervous-system-200-b07"
+    "__comp": "17896441",
+    "content": "200e3039"
   },
   "/humanoid-robotic-book/docs/chapters/vla-humanoid-0b6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-chapters-vla-humanoid-3-a-2-454"
+    "__comp": "17896441",
+    "content": "3a29f27b"
   },
   "/humanoid-robotic-book/docs/intro-036": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-intro-0-e-3-bcd"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/humanoid-robotic-book/-9a7": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-a-74-904"
+      "plugin": "a7456010"
     },
-    "config": "config---humanoid-robotic-book-5-e-9-e41"
+    "config": "5e9f5e1a"
   }
 }
