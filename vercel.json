@@ -2,15 +2,8 @@
   "buildCommand": "npm run build",
   "outputDirectory": "build",
   "framework": "docusaurus-2",
-  "env": [],
-  "envPrefix": "NEXT_PUBLIC_",
+  "env": {},
   "regions": ["sfo1"],
-  "functions": {
-    "api/**": {
-      "memory": 1024,
-      "maxDuration": 60
-    }
-  },
   "headers": [
     {
       "source": "/api/:path*",
