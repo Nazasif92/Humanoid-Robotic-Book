@@ -1,0 +1,26 @@
+{
+  "id": "skill/lesson-1/index",
+  "title": "Lesson 1",
+  "description": "This lesson covers the foundational concepts required for robotics development.",
+  "source": "@site/docs/skill/lesson-1/index.md",
+  "sourceDirName": "skill/lesson-1",
+  "slug": "/skill/lesson-1/",
+  "permalink": "/docs/skill/lesson-1/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/skill/lesson-1/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Lesson 1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Skill Introduction",
+    "permalink": "/docs/skill/intro"
+  },
+  "next": {
+    "title": "Lesson 2",
+    "permalink": "/docs/skill/lesson-2/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "skill/lesson-2/index",
+  "title": "Lesson 2",
+  "description": "This lesson explores intermediate techniques and patterns in robotics development.",
+  "source": "@site/docs/skill/lesson-2/index.md",
+  "sourceDirName": "skill/lesson-2",
+  "slug": "/skill/lesson-2/",
+  "permalink": "/docs/skill/lesson-2/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/skill/lesson-2/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Lesson 2"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lesson 1",
+    "permalink": "/docs/skill/lesson-1/"
+  },
+  "next": {
+    "title": "Lesson 3",
+    "permalink": "/docs/skill/lesson-3/"
+  }
+}

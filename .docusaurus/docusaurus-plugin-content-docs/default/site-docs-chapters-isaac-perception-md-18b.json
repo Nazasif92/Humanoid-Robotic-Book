@@ -5,7 +5,7 @@
   "source": "@site/docs/chapters/isaac-perception.md",
   "sourceDirName": "chapters",
   "slug": "/chapters/isaac-perception",
-  "permalink": "/humanoid-robotic-book/docs/chapters/isaac-perception",
+  "permalink": "/docs/chapters/isaac-perception",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/chapters/isaac-perception.md",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2: Digital Twin Simulation",
-    "permalink": "/humanoid-robotic-book/docs/chapters/digital-twin-simulation"
+    "permalink": "/docs/chapters/digital-twin-simulation"
   },
   "next": {
     "title": "Chapter 4: VLA Humanoid Robotics",
-    "permalink": "/humanoid-robotic-book/docs/chapters/vla-humanoid"
+    "permalink": "/docs/chapters/vla-humanoid"
   }
 }

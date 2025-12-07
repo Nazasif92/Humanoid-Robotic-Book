@@ -1,58 +1,117 @@
 {
-  "/humanoid-robotic-book/docs-151": {
-    "__comp": "5e95c892",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
     }
   },
-  "/humanoid-robotic-book/docs-c3f": {
-    "__comp": "a7bd4aaa",
-    "__props": "d1e3d440"
-  },
-  "/humanoid-robotic-book/docs-d71": {
-    "__comp": "a94703ab"
-  },
-  "/humanoid-robotic-book/docs/appendices/code-examples-2f0": {
-    "__comp": "17896441",
-    "content": "2aed22ad"
-  },
-  "/humanoid-robotic-book/docs/appendices/environment-setup-ea9": {
-    "__comp": "17896441",
-    "content": "98d368c0"
-  },
-  "/humanoid-robotic-book/docs/appendices/further-reading-2ff": {
-    "__comp": "17896441",
-    "content": "5e718ae6"
-  },
-  "/humanoid-robotic-book/docs/appendices/glossary-71d": {
-    "__comp": "17896441",
-    "content": "3bcc7dc1"
-  },
-  "/humanoid-robotic-book/docs/chapters/digital-twin-simulation-ff8": {
-    "__comp": "17896441",
-    "content": "35c02442"
-  },
-  "/humanoid-robotic-book/docs/chapters/isaac-perception-1d2": {
-    "__comp": "17896441",
-    "content": "18bd4bae"
-  },
-  "/humanoid-robotic-book/docs/chapters/ros2-nervous-system-732": {
-    "__comp": "17896441",
-    "content": "200e3039"
-  },
-  "/humanoid-robotic-book/docs/chapters/vla-humanoid-0b6": {
-    "__comp": "17896441",
-    "content": "3a29f27b"
-  },
-  "/humanoid-robotic-book/docs/intro-036": {
-    "__comp": "17896441",
-    "content": "0e384e19"
-  },
-  "/humanoid-robotic-book/-9a7": {
-    "__comp": "c4f5d8e4",
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
     },
-    "config": "5e9f5e1a"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+    }
+  },
+  "/docs-567": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---humanoid-robotic-book-docsaba-5ea"
+    }
+  },
+  "/docs-f65": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-1a8": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/appendices/code-examples-fd7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-appendices-code-examples-2-ae-16c"
+  },
+  "/docs/appendices/environment-setup-bf0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-appendices-environment-setup-98-d-c25"
+  },
+  "/docs/appendices/further-reading-c5d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-appendices-further-reading-5-e-7-bff"
+  },
+  "/docs/appendices/glossary-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-appendices-glossary-3-bc-48a"
+  },
+  "/docs/chapters/digital-twin-simulation-9f0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-chapters-digital-twin-simulation-35-c-728"
+  },
+  "/docs/chapters/isaac-perception-1f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-chapters-isaac-perception-18-b-8ab"
+  },
+  "/docs/chapters/ros2-nervous-system-6ab": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-chapters-ros-2-nervous-system-200-b07"
+  },
+  "/docs/chapters/vla-humanoid-10b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-chapters-vla-humanoid-3-a-2-454"
+  },
+  "/docs/intro-61d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-intro-0-e-3-bcd"
+  },
+  "/docs/skill/intro-b20": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-skill-intro-44-c-7e0"
+  },
+  "/docs/skill/lesson-1/-495": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-skill-lesson-1-386-969"
+  },
+  "/docs/skill/lesson-2/-6f9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-skill-lesson-2-ef-5-bdf"
+  },
+  "/docs/skill/lesson-3/-9d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---humanoid-robotic-book-docs-skill-lesson-3-9-b-1-12a"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---humanoid-robotic-book-a-74-904"
+    },
+    "config": "config---humanoid-robotic-book-5-e-9-e41"
   }
 }

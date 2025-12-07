@@ -1,0 +1,26 @@
+{
+  "id": "skill/intro",
+  "title": "Skill Introduction",
+  "description": "Welcome to the Skill section! This module introduces fundamental concepts and techniques for building and deploying humanoid robots.",
+  "source": "@site/docs/skill/intro.md",
+  "sourceDirName": "skill",
+  "slug": "/skill/intro",
+  "permalink": "/docs/skill/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/skill/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Skill Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: VLA Humanoid Robotics",
+    "permalink": "/docs/chapters/vla-humanoid"
+  },
+  "next": {
+    "title": "Lesson 1",
+    "permalink": "/docs/skill/lesson-1/"
+  }
+}

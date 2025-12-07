@@ -5,7 +5,7 @@
   "source": "@site/docs/appendices/further-reading.md",
   "sourceDirName": "appendices",
   "slug": "/appendices/further-reading",
-  "permalink": "/humanoid-robotic-book/docs/appendices/further-reading",
+  "permalink": "/docs/appendices/further-reading",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/appendices/further-reading.md",
@@ -17,6 +17,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Appendix C: Glossary",
-    "permalink": "/humanoid-robotic-book/docs/appendices/glossary"
+    "permalink": "/docs/appendices/glossary"
   }
 }

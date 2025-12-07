@@ -13,8 +13,8 @@
       "calendar": "gregory",
       "path": "en",
       "translate": false,
-      "url": "https://your-github-username.github.io",
-      "baseUrl": "/humanoid-robotic-book/"
+      "url": "https://Humanoid-Robotic-Book.vercel.app",
+      "baseUrl": "/"
     }
   }
 }

@@ -7,11 +7,8 @@ export default {
   "title": "Humanoid Robotics Book",
   "tagline": "Learn ROS 2, Digital Twins, AI Perception, and Vision-Language Action",
   "favicon": "img/favicon.ico",
-  "url": "https://your-github-username.github.io",
-  "baseUrl": "/humanoid-robotic-book/",
-  "organizationName": "your-username",
-  "projectName": "humanoid-robotic-book",
-  "deploymentBranch": "gh-pages",
+  "url": "https://Humanoid-Robotic-Book.vercel.app",
+  "baseUrl": "/",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",

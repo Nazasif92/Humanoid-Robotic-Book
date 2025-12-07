@@ -1,0 +1,26 @@
+{
+  "id": "skill/lesson-3/index",
+  "title": "Lesson 3",
+  "description": "Master advanced techniques and specialized topics in humanoid robotics.",
+  "source": "@site/docs/skill/lesson-3/index.md",
+  "sourceDirName": "skill/lesson-3",
+  "slug": "/skill/lesson-3/",
+  "permalink": "/docs/skill/lesson-3/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/skill/lesson-3/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Lesson 3"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lesson 2",
+    "permalink": "/docs/skill/lesson-2/"
+  },
+  "next": {
+    "title": "Appendix A: Environment Setup",
+    "permalink": "/docs/appendices/environment-setup"
+  }
+}
