@@ -2,7 +2,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "build",
   "framework": "docusaurus-2",
-  "env": [],
+  "env": {},
   "regions": ["sfo1"],
   "functions": {
     "api/**": {
