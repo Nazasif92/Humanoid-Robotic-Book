@@ -3,7 +3,6 @@
   "outputDirectory": "build",
   "framework": "docusaurus-2",
   "env": [],
-  "envPrefix": "NEXT_PUBLIC_",
   "regions": ["sfo1"],
   "functions": {
     "api/**": {
