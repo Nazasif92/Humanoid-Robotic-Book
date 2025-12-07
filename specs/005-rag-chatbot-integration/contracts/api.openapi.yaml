@@ -1,0 +1,268 @@
+openapi: 3.0.0
+info:
+  title: RAG Chatbot API
+  version: 1.0.0
+  description: Backend API for Humanoid-Robotics-Book RAG chatbot
+  contact:
+    name: Project Lead
+    url: https://github.com/Nazasif92/Humanoid-Robotic-Book
+
+servers:
+  - url: https://rag-chatbot-backend.railway.app
+    description: Production (Railway)
+  - url: http://localhost:8000
+    description: Local development
+
+paths:
+  /ask:
+    post:
+      summary: Ask a question and receive an RAG-powered answer
+      operationId: askQuestion
+      tags:
+        - Chat
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AskRequest'
+      responses:
+        '200':
+          description: Successful response with answer and sources
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AskResponse'
+        '400':
+          description: Invalid request (empty question, malformed input)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '429':
+          description: Rate limited (>20 requests/minute from same IP)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Server error (backend unavailable, OpenAI timeout, etc.)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - {}  # No authentication required (CORS-restricted)
+      x-response-time-ms: 5000
+
+  /health:
+    get:
+      summary: Health check endpoint
+      operationId: healthCheck
+      tags:
+        - System
+      responses:
+        '200':
+          description: System is healthy or degraded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+      x-response-time-ms: 2000
+
+  /ingest:
+    post:
+      summary: Trigger document ingestion (internal use)
+      operationId: triggerIngestion
+      tags:
+        - Admin
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IngestRequest'
+      responses:
+        '200':
+          description: Ingestion completed successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IngestResponse'
+        '400':
+          description: Invalid ingestion request
+        '500':
+          description: Ingestion failed
+      x-response-time-ms: 180000  # Up to 3 minutes for full ingestion
+
+components:
+  schemas:
+    AskRequest:
+      type: object
+      required:
+        - question
+      properties:
+        question:
+          type: string
+          minLength: 1
+          maxLength: 5000
+          description: User's question about the documentation
+          example: "What is ROS 2 and why is it important for robotics?"
+        selected_text:
+          type: string
+          nullable: true
+          maxLength: 2000
+          description: Optional context from user's text selection
+          example: "ROS 2 is a middleware framework..."
+
+    AskResponse:
+      type: object
+      required:
+        - answer
+        - sources
+        - status
+      properties:
+        answer:
+          type: string
+          description: LLM-generated answer
+          example: "ROS 2 (Robot Operating System 2) is a middleware framework for robotics that provides..."
+        sources:
+          type: array
+          items:
+            $ref: '#/components/schemas/Source'
+          description: List of document sources used to generate the answer
+        status:
+          type: string
+          enum: [success, partial, error]
+          description: Status of the response
+        latency_ms:
+          type: integer
+          description: How long the request took (milliseconds)
+
+    Source:
+      type: object
+      required:
+        - title
+        - section
+        - url
+      properties:
+        title:
+          type: string
+          description: Document title
+          example: "Module 1: ROS 2 — Robotic Nervous System"
+        section:
+          type: string
+          description: Document section/folder
+          example: "chapters"
+        url:
+          type: string
+          description: Docusaurus URL
+          example: "/docs/chapters/ros2-nervous-system"
+        chunk_text:
+          type: string
+          nullable: true
+          description: Optional excerpt from the chunk (for debugging)
+
+    ErrorResponse:
+      type: object
+      required:
+        - status
+        - error
+      properties:
+        status:
+          type: string
+          enum: [error]
+        error:
+          type: string
+          description: Error message
+          example: "Backend service unavailable. Please try again later."
+        code:
+          type: string
+          nullable: true
+          description: Error code for debugging
+          example: "QDRANT_TIMEOUT"
+
+    HealthResponse:
+      type: object
+      required:
+        - status
+      properties:
+        status:
+          type: string
+          enum: [ok, degraded, error]
+          description: Overall system health
+        timestamp:
+          type: string
+          format: date-time
+          description: Health check timestamp
+        checks:
+          type: object
+          properties:
+            qdrant:
+              type: boolean
+              description: Qdrant vector database accessible
+            neon:
+              type: boolean
+              description: Neon PostgreSQL accessible
+            openai:
+              type: boolean
+              description: OpenAI API accessible
+          required:
+            - qdrant
+            - neon
+            - openai
+
+    IngestRequest:
+      type: object
+      properties:
+        docs_path:
+          type: string
+          description: Path to docs folder (absolute or relative)
+          example: "/app/docs"
+        batch_size:
+          type: integer
+          minimum: 10
+          maximum: 500
+          default: 100
+          description: Number of chunks to embed in parallel
+
+    IngestResponse:
+      type: object
+      required:
+        - status
+        - chunks_created
+        - duration_seconds
+      properties:
+        status:
+          type: string
+          enum: [success, partial, error]
+        chunks_created:
+          type: integer
+          description: Total chunks embedded and stored
+          example: 127
+        documents_processed:
+          type: integer
+          description: Number of markdown files processed
+          example: 8
+        duration_seconds:
+          type: number
+          format: float
+          description: Total ingestion time
+          example: 45.3
+        errors:
+          type: array
+          items:
+            type: string
+          nullable: true
+          description: Any errors encountered during ingestion
+
+  securitySchemes:
+    {}  # No authentication in v1
+
+tags:
+  - name: Chat
+    description: Question-answering endpoints
+  - name: System
+    description: Health & status endpoints
+  - name: Admin
+    description: Administrative operations (internal use)
