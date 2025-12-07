@@ -37,6 +37,16 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Skill',
+      items: [
+        'skill/intro',
+        'skill/lesson-1/index',
+        'skill/lesson-2/index',
+        'skill/lesson-3/index',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Appendices',
       items: [
         'appendices/environment-setup',
