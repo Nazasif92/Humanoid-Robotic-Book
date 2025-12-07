@@ -75,6 +75,11 @@ const config = {
             label: 'Read Book',
           },
           {
+            label: 'Chatbot',
+            to: '/chatbot',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/your-username/humanoid-robotic-book',
             label: 'GitHub',
             position: 'right',
