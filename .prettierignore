@@ -1,0 +1,17 @@
+node_modules/
+build/
+dist/
+coverage/
+*.min.js
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.bundle.js
+public/
+.docusaurus/
+.cache/
+.next/
+.nuxt/
+.env*
+!*.env.example
+*.log

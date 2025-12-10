@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+*.min.js
+*.bundle.js
+public/
+.docusaurus/
+.cache/
+.next/
+.nuxt/
+.nyc_output/
+.env*
+!*.env.example
+*.log

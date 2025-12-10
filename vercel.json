@@ -1,8 +1,11 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "build",
-  "framework": "docusaurus-2",
-  "env": {},
+  "framework": "other",
+  "env": {
+    "NEXT_PUBLIC_API_BASE_URL": "https://your-backend-project-name-production.up.railway.app",
+    "NEXT_PUBLIC_CHATBOT_ENABLED": "true"
+  },
   "regions": ["sfo1"],
   "headers": [
     {
@@ -20,8 +23,29 @@
         {
           "key": "X-Content-Type-Options",
           "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
         }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://your-backend-project-name-production.up.railway.app/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/chat",
+      "destination": "/chatbot",
+      "permanent": true
     }
   ]
 }
