@@ -1,10 +1,19 @@
-# Humanoid Robotics Book
+# Humanoid Robotics Book with RAG Integration
 
-Welcome to the Humanoid Robotics Book project! This is a comprehensive educational resource covering ROS 2, Digital Twins, NVIDIA Isaac, and Vision-Language-Action (VLA) paradigms for humanoid robotics.
+Welcome to the Humanoid Robotics Book project! This is a comprehensive educational resource covering ROS 2, Digital Twins, NVIDIA Isaac, and Vision-Language-Action (VLA) paradigms for humanoid robotics, enhanced with a Retrieval-Augmented Generation (RAG) AI assistant.
 
 ## 📚 About This Book
 
 This book is designed to guide you through the fundamentals of humanoid robotics, from ROS 2 communication patterns to advanced AI perception and control systems. Each module builds upon the previous one, creating a complete learning path for robotics enthusiasts and professionals.
+
+## 🤖 AI-Powered Documentation Assistant
+
+This book features an integrated AI assistant powered by Retrieval-Augmented Generation (RAG) technology that can help you understand complex concepts and find relevant information:
+
+- **Context-Aware Q&A**: Ask questions about any topic in the documentation and get AI-generated answers with citations
+- **Text Selection Integration**: Select any text on a page and ask specific questions about it
+- **Source Citations**: All answers include links to the original documentation for verification
+- **24/7 Availability**: Get help anytime without waiting for community responses
 
 ## 🚀 Local Development Setup
 
@@ -12,6 +21,33 @@ This book is designed to guide you through the fundamentals of humanoid robotics
 
 - [Node.js](https://nodejs.org/) (version 18 or higher)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Environment Configuration
+
+To run the RAG integration locally, you'll need to set up your environment variables:
+
+1. Copy `.env.example` to `.env.local`:
+   ```bash
+   cp .env.example .env.local
+   ```
+
+2. Update `.env.local` with your OpenAI API key and other required configuration
+
+### Running with RAG Integration
+
+1. Start the backend server (in a separate terminal):
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   python -m uvicorn app.main:app --reload --port 8000
+   ```
+
+2. In another terminal, start the Docusaurus frontend:
+   ```bash
+   npm start
+   ```
+
+The AI assistant will be available on the documentation pages and the dedicated chat page at `/chatbot`.
 
 ### Installation
 
@@ -60,12 +96,28 @@ To automatically fix linting issues:
 npm run lint:fix
 ```
 
+## 🤖 Using the AI Assistant
+
+### On Documentation Pages
+- Type questions in the chat box that appears on each documentation page
+- Select text on any page and click the floating "Ask" button to ask questions about the selected text
+- View source citations to verify information and explore related topics
+
+### On the Chat Page
+- Visit the `/chatbot` page for a dedicated chat interface
+- Ask questions about the entire documentation corpus
+- Browse your conversation history
+
 ## 📖 Project Structure
 
 - `docs/chapters/` - Main book chapters organized by module
 - `docs/appendices/` - Additional resources and reference materials
 - `docs/assets/` - Diagrams, code snippets, and other assets
 - `src/` - Custom React components and styling
+- `src/api/` - API client for RAG backend communication
+- `src/components/ChatBox/` - Main chat interface component
+- `src/components/TextSelectionChat/` - Text selection integration component
+- `src/theme/` - Docusaurus theme components
 - `docusaurus.config.js` - Site configuration
 - `sidebars.js` - Navigation structure
 

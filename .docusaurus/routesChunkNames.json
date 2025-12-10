@@ -2,50 +2,57 @@
   "/__docusaurus/debug-5ff": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
   "/__docusaurus/debug/config-5ba": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
   "/__docusaurus/debug/content-a2b": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
     "__props": "__props---docusaurus-debug-content-3-c-0-be2"
   },
   "/__docusaurus/debug/globalData-c3c": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
   "/__docusaurus/debug/metadata-156": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
   "/__docusaurus/debug/registry-88c": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
   "/__docusaurus/debug/routes-000": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docusaurus-debugb-38-d97"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
+  },
+  "/chatbot-b9a": {
+    "__comp": "__comp---site-src-pages-chatbot-jsxe-3-e-7d2",
+    "__context": {
+      "plugin": "plugin---chatbota-74-26c"
+    },
+    "config": "config---chatbot-5-e-9-77b"
   },
   "/docs-567": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-docsaba-5ea"
+      "plugin": "plugin---docsaba-d7c"
     }
   },
   "/docs-f65": {
@@ -57,61 +64,61 @@
   },
   "/docs/appendices/code-examples-fd7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-appendices-code-examples-2-ae-16c"
+    "content": "content---docs-appendices-code-examples-2-ae-f58"
   },
   "/docs/appendices/environment-setup-bf0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-appendices-environment-setup-98-d-c25"
+    "content": "content---docs-appendices-environment-setup-98-d-f2d"
   },
   "/docs/appendices/further-reading-c5d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-appendices-further-reading-5-e-7-bff"
+    "content": "content---docs-appendices-further-reading-5-e-7-a86"
   },
   "/docs/appendices/glossary-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-appendices-glossary-3-bc-48a"
+    "content": "content---docs-appendices-glossary-3-bc-f73"
   },
   "/docs/chapters/digital-twin-simulation-9f0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-chapters-digital-twin-simulation-35-c-728"
+    "content": "content---docs-chapters-digital-twin-simulation-35-c-0db"
   },
   "/docs/chapters/isaac-perception-1f2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-chapters-isaac-perception-18-b-8ab"
+    "content": "content---docs-chapters-isaac-perception-18-b-3a2"
   },
   "/docs/chapters/ros2-nervous-system-6ab": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-chapters-ros-2-nervous-system-200-b07"
+    "content": "content---docs-chapters-ros-2-nervous-system-200-7d0"
   },
   "/docs/chapters/vla-humanoid-10b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-chapters-vla-humanoid-3-a-2-454"
+    "content": "content---docs-chapters-vla-humanoid-3-a-2-e63"
   },
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-intro-0-e-3-bcd"
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/skill/intro-b20": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-skill-intro-44-c-7e0"
+    "content": "content---docs-skill-intro-44-c-d0d"
   },
   "/docs/skill/lesson-1/-495": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-skill-lesson-1-386-969"
+    "content": "content---docs-skill-lesson-1-386-e11"
   },
   "/docs/skill/lesson-2/-6f9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-skill-lesson-2-ef-5-bdf"
+    "content": "content---docs-skill-lesson-2-ef-5-964"
   },
   "/docs/skill/lesson-3/-9d9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---humanoid-robotic-book-docs-skill-lesson-3-9-b-1-12a"
+    "content": "content---docs-skill-lesson-3-9-b-1-0b4"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---humanoid-robotic-book-a-74-904"
+      "plugin": "plugin---chatbota-74-26c"
     },
-    "config": "config---humanoid-robotic-book-5-e-9-e41"
+    "config": "config---chatbot-5-e-9-77b"
   }
 }

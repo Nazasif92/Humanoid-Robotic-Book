@@ -1,0 +1,48 @@
+---
+title: ChatBox Component
+---
+
+# ChatBox Component
+
+The ChatBox component provides an interface for users to ask questions about the documentation and receive AI-generated answers with source citations.
+
+## Usage
+
+### In MDX Files
+
+You can use the ChatBox component directly in any MDX file:
+
+```mdx
+import ChatBox from '@theme/ChatBox';
+
+<ChatBox />
+```
+
+### With Initial Context
+
+```mdx
+import ChatBox from '@theme/ChatBox';
+
+<ChatBox initialContext="This is some context that will be used as background information for the AI." />
+```
+
+### As Compact Version
+
+```mdx
+import ChatBox from '@theme/ChatBox';
+
+<ChatBox compact={true} showTitle={false} />
+```
+
+## Features
+
+- **Question Input**: Users can type questions about the documentation
+- **Context Support**: Optionally provide initial context or use selected text
+- **Source Citations**: Answers include links to relevant documentation
+- **Loading States**: Visual feedback during API requests
+- **Error Handling**: Graceful error messages when requests fail
+- **Responsive Design**: Works on all device sizes
+
+## Text Selection
+
+The application also includes text selection functionality. When users select text on any page and click the floating "Ask" button, the selected text will be used as context for their question.

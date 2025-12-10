@@ -38,6 +38,11 @@ export default [
     exact: true
   },
   {
+    path: '/chatbot',
+    component: ComponentCreator('/chatbot', 'b9a'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '567'),
     routes: [
