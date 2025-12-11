@@ -3,7 +3,7 @@
   "outputDirectory": "build",
   "framework": "other",
   "env": {
-    "NEXT_PUBLIC_API_BASE_URL": "https://your-backend-project-name-production.up.railway.app",
+    "API_BASE_URL": "https://your-backend-project-name-production.up.railway.app",
     "NEXT_PUBLIC_CHATBOT_ENABLED": "true"
   },
   "regions": ["sfo1"],
@@ -38,7 +38,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://your-backend-project-name-production.up.railway.app/:path*"
+      "destination": "${API_BASE_URL}/:path*"
     }
   ],
   "redirects": [

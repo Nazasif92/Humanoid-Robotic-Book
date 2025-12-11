@@ -1,81 +1,128 @@
 {
-  "/chatbot-b9a": {
-    "__comp": "e3e8e5bb",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
-    },
-    "config": "5e9f5e1a"
-  },
-  "/docs-567": {
-    "__comp": "5e95c892",
-    "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-f65": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
   },
-  "/docs-1a8": {
-    "__comp": "a94703ab"
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/chatbot-b9a": {
+    "__comp": "__comp---site-src-pages-chatbot-jsxe-3-e-7d2",
+    "__context": {
+      "plugin": "plugin---chatbota-74-26c"
+    },
+    "config": "config---chatbot-5-e-9-77b"
+  },
+  "/docs-09c": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-537": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-52e": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/appendices/code-examples-fd7": {
-    "__comp": "17896441",
-    "content": "2aed22ad"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-appendices-code-examples-2-ae-f58"
   },
   "/docs/appendices/environment-setup-bf0": {
-    "__comp": "17896441",
-    "content": "98d368c0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-appendices-environment-setup-98-d-f2d"
   },
   "/docs/appendices/further-reading-c5d": {
-    "__comp": "17896441",
-    "content": "5e718ae6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-appendices-further-reading-5-e-7-a86"
   },
   "/docs/appendices/glossary-aed": {
-    "__comp": "17896441",
-    "content": "3bcc7dc1"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-appendices-glossary-3-bc-f73"
   },
   "/docs/chapters/digital-twin-simulation-9f0": {
-    "__comp": "17896441",
-    "content": "35c02442"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapters-digital-twin-simulation-35-c-0db"
   },
   "/docs/chapters/isaac-perception-1f2": {
-    "__comp": "17896441",
-    "content": "18bd4bae"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapters-isaac-perception-18-b-3a2"
   },
   "/docs/chapters/ros2-nervous-system-6ab": {
-    "__comp": "17896441",
-    "content": "200e3039"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapters-ros-2-nervous-system-200-7d0"
   },
   "/docs/chapters/vla-humanoid-10b": {
-    "__comp": "17896441",
-    "content": "3a29f27b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapters-vla-humanoid-3-a-2-e63"
   },
   "/docs/intro-61d": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/skill/intro-b20": {
-    "__comp": "17896441",
-    "content": "44c39e25"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-skill-intro-44-c-d0d"
   },
   "/docs/skill/lesson-1/-495": {
-    "__comp": "17896441",
-    "content": "386a349b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-skill-lesson-1-386-e11"
   },
   "/docs/skill/lesson-2/-6f9": {
-    "__comp": "17896441",
-    "content": "ef5cd277"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-skill-lesson-2-ef-5-964"
   },
   "/docs/skill/lesson-3/-9d9": {
-    "__comp": "17896441",
-    "content": "9b19a4a7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-skill-lesson-3-9-b-1-0b4"
+  },
+  "/docs/VERCEL_DEPLOYMENT-ebe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-vercel-deploymen-tc-24-817"
   },
   "/-2e1": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---chatbota-74-26c"
     },
-    "config": "5e9f5e1a"
+    "config": "config---chatbot-5-e-9-77b"
   }
 }

@@ -74,6 +74,10 @@
               "id": "skill/lesson-3/index",
               "path": "/docs/skill/lesson-3/",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "VERCEL_DEPLOYMENT",
+              "path": "/docs/VERCEL_DEPLOYMENT"
             }
           ],
           "draftIds": [],

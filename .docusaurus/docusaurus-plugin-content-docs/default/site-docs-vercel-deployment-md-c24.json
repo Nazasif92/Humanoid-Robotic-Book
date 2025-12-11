@@ -1,0 +1,15 @@
+{
+  "id": "VERCEL_DEPLOYMENT",
+  "title": "Vercel Deployment Guide",
+  "description": "This document explains how to deploy the Docusaurus site with integrated chatbot to Vercel.",
+  "source": "@site/docs/VERCEL_DEPLOYMENT.md",
+  "sourceDirName": ".",
+  "slug": "/VERCEL_DEPLOYMENT",
+  "permalink": "/docs/VERCEL_DEPLOYMENT",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/humanoid-robotic-book/edit/main/docs/VERCEL_DEPLOYMENT.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
